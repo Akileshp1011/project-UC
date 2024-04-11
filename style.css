@@ -1,0 +1,232 @@
+body{
+    background-color: rgb(1, 1, 26);
+}
+.all, .wallet{
+    display: inline-flex;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(1, 1, 26);
+    border-bottom: 1px solid rgb(82, 82, 107);
+    display: flex;
+    position: relative;
+}
+.navbar .logo{
+    font-size: 30px;
+    color: white;
+}
+.navbar li{
+    padding: 0 10px;
+}
+.navbar .center li{
+         text-decoration: none;
+         font-size: 20px;
+         color: white;
+         display: inline-flex;
+         margin-top: 23px;
+}
+.navbar .center .DB{
+    font-size: 23px;
+    color: aquamarine;
+    text-decoration: underline;
+    margin-left: 200px;
+}
+.navbar .rightend li{
+    color: white;
+    font-size: 22px;
+}
+.navbar .center .num{
+    margin-left: 130px;
+}
+.navbar .center .Rp{
+    font-size: 18px;
+    color: aquamarine;
+}
+.navbar button{
+    font-size: 20px;
+    color: white; 
+    background-color: rgb(47, 45, 65); 
+    width: 140px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.navbar button span{
+    margin-left: 15px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid gold;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.fa-caret-down{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.rating{
+    width: 400px;
+    height: max-content;
+    background-color: rgb(47, 45, 65);
+    border-radius: 5px;
+    margin-top: 35px;
+}
+.title{
+    width: 400px;
+    height: 80px;
+    display: inline-flex;
+    font-size: 13px;
+    color: white;
+    border-bottom: 1px solid rgb(82, 82, 107);
+}
+.rating .title1{
+    margin-left: 7px;
+}
+.rating .title2{
+    margin-left: 80px;
+}
+.search-block{
+    width: 370px;
+    height: 65px;
+    border-bottom: 1px solid rgb(82, 82, 107);
+    margin-left:auto ;
+    margin-right: auto;
+}
+.search{
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(1, 1, 26);
+    color: whitesmoke;
+    margin-left:auto ;
+    margin-right: auto;
+    
+}
+.search p{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.brands{
+    width: 370px;
+    height: 60px;
+    border-bottom: 1px solid rgb(82, 82, 107);
+    margin-left:auto ;
+    margin-right: auto;
+    color: darkgrey;
+}
+.brands div{
+    display: inline-flex;
+}
+.datas {
+    margin-left: 100px;
+}
+.datas h3{
+    padding-left: 18px;
+}
+.green{
+    color: rgb(13, 194, 13);
+}
+.red{
+    color: rgb(228, 37, 37);
+}
+.btn1{
+    font-size: 16px;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(13, 194, 13);
+}
+.btn2{
+    font-size: 16px;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(228, 37, 37);
+    margin-left: 5px;
+}
+.brands .btn{
+    margin-left: 110px;
+    margin-top: 18px;
+}
+.fa-arrow-trend-up{
+    font-size: 15px;
+    border: 1px solid blue;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
+    border: none;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.fa-trash{
+    font-size: 22px;
+    color: rgb(228, 37, 37);
+    margin-left: 17px;
+}
+.bg{
+    width: 380px;
+    height: 60px;
+    background-color: rgb(1, 1, 26);
+    margin-left: auto;
+    margin-right: auto;
+}
+.wallet1, .wallet2{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(47, 45, 65);
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+ .upgrade{
+    width: 840px;
+    height: 300px;
+    background-color: rgb(47, 45, 65);
+    border-radius: 5px;
+    position: relative;
+    bottom: 940px;
+    left: 435px;
+}
+.wallet1 i{
+    display: block;
+    font-size: 35px;
+    color: rgb(170, 17, 170);
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.wallet1 p,h1{
+    position: relative;
+    left: 100px;
+    color: white;
+    bottom: 25px;
+
+}
+.wallet2 i{
+    display: block;
+    font-size: 35px;
+    color: yellow;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.wallet2 p,h1{
+    position: relative;
+    left: 100px;
+    color: white;
+    bottom: 25px;
+
+}
